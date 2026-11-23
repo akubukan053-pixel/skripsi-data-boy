@@ -1,0 +1,18 @@
+PAKET PWA SKRIPSI DATA MILIK SI BOY MUMET
+
+Unggah 4 file ini ke root repository, sejajar dengan index.html:
+- manifest.json
+- sw.js
+- icon-192.png
+- icon-512.png
+
+Cara pasang:
+1. Ekstrak ZIP.
+2. Pilih keempat file di atas (jangan pilih PETUNJUK.txt).
+3. Upload ke root repository GitHub, sejajar dengan index.html.
+4. Commit changes dan tunggu deployment Vercel selesai.
+5. Buka website di Chrome Android, menu titik tiga, lalu pilih Install app atau Tambahkan ke layar utama.
+
+index.html yang sekarang sudah memanggil manifest.json dan mendaftarkan sw.js.
+Service worker menyimpan shell aplikasi untuk membantu membuka halaman saat offline.
+Penyimpanan data aplikasi saat ini masih localStorage pada perangkat/browser, bukan sinkronisasi cloud.
